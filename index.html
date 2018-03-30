@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="zh-Hang-Tw">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <!-- <link rel="shortcut icon" href="images/favicon.ico"> -->
+    <meta name="description" content="高雄旅遊資訊">
+    <meta name="keywords" content="高雄旅遊資訊">
+    <meta name="author" content="高雄旅遊資訊">
+
+    <meta property="og:title" content="高雄旅遊資訊" />
+    <meta property="og:description" content="高雄旅遊資訊" />
+    <meta property="og:image" content="http://www.hexschool.com/images/products/html_css_01.png" />
+    <meta property="og:site_name" content="高雄旅遊資訊" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="zh_TW" />
+    <meta property="og:url" content="http://www.hexschool.com/courses/html_css.html" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link href="images/web_hi.png" rel="apple-touch-icon" />
+    <title>高雄旅遊資訊</title>
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+
+</head>
+
+<body>
+
+    <div class="background">
+
+    </div>
+    <div class="wrap">
+        <div class="d-flex flex-column align-items-center">
+            <header class="title d-flex flex-column align-items-center">
+                <h1>高雄旅遊資訊</h1>
+                <form>
+                    <div class="form-group mb-5">
+                        <select class="form-control js_selectOption">
+                            <option value=""> -- 請選擇行政區 -- </option>
+                            <option value="苓雅區">苓雅區</option>
+                            <option value="三民區">三民區</option>
+                            <option value="新興區">新興區</option>
+                            <option value="鹽埕區">鹽埕區</option>
+                        </select>
+                    </div>
+                </form>
+            </header>
+
+            <section class="btnGoup d-flex flex-column align-items-center">
+                <h4 class="m-3">熱門行政區</h4>
+                <div class="d-flex justify-content-center align-items-center">
+                    <button type="button" data-zone="苓雅區" class="btn btn-primary mr-4 btnWidth js_btn1">苓雅區</button>
+                    <button type="button" data-zone="三民區" class="btn btn-danger mr-4 btnWidth js_btn2">三民區</button>
+                    <button type="button" data-zone="新興區" class="btn btn-warning mr-4 btnWidth js_btn3">新興區</button>
+                    <button type="button" data-zone="鹽埕區" class="btn btn-info mr-4 btnWidth js_btn4">鹽埕區</button>
+                </div>
+            </section>
+            <div class="arrow mt-5 d-flex justify-content-center">
+                <span><img src="images/arrow.png" alt="" width="25" height="25" class="arrowImg"></span>
+            </div>
+        </div>
+
+        <section class="openData container my-5">
+            <h2 class="js_dataTitle mb-5 d-flex justify-content-center">
+                <!-- 苓雅區 -->
+            </h2>
+
+            <div class="js_dataList row">
+                <!-- <div class="col-sm-6 pb-4">
+                    <div class="card">
+                        <div class="dataHead d-flex justify-content-between">
+                            <h3 class="dataName card-title">高雄願景館</h3>
+                            <p class="dataZone">三民區</p>
+                        </div>
+                        <img class="dataImg card-img-top" src="images/car_img.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="dataTime card-text"><img class="pr-2" src="images/icons_clock.png" alt="">週二至週日10:00-18:00，每週一公休</p>
+                            <p class="dataAdd card-text"><img class="pr-2" src="images/icons_pin.png" alt="">高雄市三民區建國二路318號</p>
+                            <div class="d-flex justify-content-between">
+                                <p class="dataTel card-text"><img class="pr-2" src="images/icons_phone.png" alt="">886-7-2363357</p>
+                                <p class="dataTicket card-text"><img class="pr-2" src="images/icons_tag.png" alt="">免費參觀</p>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+
+        <footer class="footArea p-3">
+            <p class="footTitle pt-2">高雄旅遊網</p>
+            <p>資料來源:高雄市政府</p>
+
+        </footer>
+    </div>
+
+
+    <script src="js/all.js"></script>
+</body>
+
+</html>

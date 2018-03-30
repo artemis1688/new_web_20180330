@@ -1,0 +1,78 @@
+.background {
+  height: 500px;
+  background-image: url(../images/the-urban-landscape-1698285.jpg);
+  background-size: cover;
+  background-position: top center; }
+
+.title {
+  margin-top: -300px; }
+
+form .js_selectOption,
+form .js_selectOption option {
+  width: 400px;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-top: 50px; }
+
+.btnGoup {
+  width: 75%;
+  height: 145px;
+  background-color: white;
+  border-radius: 10px;
+  border: 0.5px solid #cdcecd;
+  -webkit-box-shadow: 1px 1px 2px #cdcecd;
+  box-shadow: 1px 1px 2px #cdcecd; }
+  .btnGoup .btnWidth {
+    width: 110px; }
+
+.arrow {
+  width: 75%;
+  height: 26px; }
+  .arrow span {
+    display: inline-block;
+    padding: 0px;
+    position: relative; }
+  .arrow span:before,
+  .arrow span:after {
+    border-top: 1px dashed #559ac8;
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 480px; }
+  .arrow span:before {
+    right: 100%; }
+  .arrow span:after {
+    left: 100%; }
+
+header h1 {
+  color: #fff; }
+
+.openData h2 {
+  color: #8a82cc; }
+
+.openData h3 {
+  color: #fff; }
+
+.card {
+  position: relative; }
+
+.dataHead {
+  position: absolute;
+  left: 25px;
+  top: 300px; }
+
+.dataZone {
+  position: relative;
+  right: -288px;
+  top: 11px;
+  font-size: 20px;
+  color: #fff; }
+
+.footArea {
+  background-color: #559ac8;
+  text-align: center;
+  line-height: 20px; }
+  .footArea .footTitle {
+    color: #fff;
+    font-size: 18px; }
+  .footArea p {
+    color: #ffd366; }
